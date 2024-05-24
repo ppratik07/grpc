@@ -33,11 +33,11 @@ const packageDefinition = protoLoader.loadSync(path_1.default.join(__dirname, '.
 const personProto = grpc.loadPackageDefinition(packageDefinition);
 const PERSONS = [
     {
-        name: "harkirat",
-        age: 45
+        name: "pratik",
+        age: 25
     },
     {
-        name: "raman",
+        name: "testname",
         age: 45
     },
 ];
