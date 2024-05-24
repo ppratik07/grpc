@@ -29,7 +29,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const path_1 = __importDefault(require("path"));
 const grpc = __importStar(require("@grpc/grpc-js"));
 const protoLoader = __importStar(require("@grpc/proto-loader"));
-const packageDefinition = protoLoader.loadSync(path_1.default.join(__dirname, './a.proto'));
+const packageDefinition = protoLoader.loadSync(path_1.default.join(__dirname, '../src/a.proto'));
 const personProto = grpc.loadPackageDefinition(packageDefinition);
 const PERSONS = [
     {
